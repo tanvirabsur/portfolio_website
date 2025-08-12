@@ -1,0 +1,38 @@
+[
+    {
+        "id": 1,
+        "name": "E-Commerce Website",
+        "description": "A fully functional e-commerce platform with product management, authentication, and payment integration.",
+        "technologies": [
+            "React",
+            "Tailwind CSS",
+            "Node.js",
+            "MongoDB"
+        ],
+        "image": "https://via.placeholder.com/400x250",
+        "link": "https://example.com/ecommerce"
+    },
+    {
+        "id": 2,
+        "name": "Portfolio Website",
+        "description": "Personal portfolio to showcase projects and skills with a modern, responsive UI.",
+        "technologies": [
+            "React",
+            "Tailwind CSS"
+        ],
+        "image": "https://via.placeholder.com/400x250",
+        "link": "https://example.com/portfolio"
+    },
+    {
+        "id": 3,
+        "name": "Blog Platform",
+        "description": "A platform where users can create, edit, and publish blog posts with authentication and comment features.",
+        "technologies": [
+            "Next.js",
+            "Tailwind CSS",
+            "MongoDB"
+        ],
+        "image": "https://via.placeholder.com/400x250",
+        "link": "https://example.com/blog"
+    }
+]
