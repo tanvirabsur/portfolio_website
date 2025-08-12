@@ -11,13 +11,13 @@ const Navbar = () => {
           <a href="#projects" className="hover:text-purple-400 text-white">Projects</a>
           <a href="#contact" className="hover:text-purple-400 text-white">Contact</a>
         </div>
-        <div className="md:hidden">
+        {/* <div className="md:hidden">
           <button id="mobile-menu-button" className="text-white focus:outline-none">
             <svg className="w-6 h-6" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
               <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 6h16M4 12h16m-7 6h7"></path>
             </svg>
           </button>
-        </div>
+        </div> */}
       </div>
       <div id="mobile-menu" className="hidden md:hidden">
         <a href="#home" className="block py-2 px-4 text-sm hover:bg-gray-700">Home</a>

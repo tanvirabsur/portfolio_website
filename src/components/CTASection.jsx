@@ -12,7 +12,7 @@ const CTASection = () => {
                     <a href="#" className="bg-white text-purple-600 font-bold py-3 px-8 rounded-full hover:bg-gray-200 transition duration-300">
                         Download CV
                     </a>
-                    <a href="#" className="bg-gray-900 text-white font-bold py-3 px-8 rounded-full hover:bg-gray-800 transition duration-300">
+                    <a href="https://github.com/tanvirabsur" className="bg-gray-900 text-white font-bold py-3 px-8 rounded-full hover:bg-gray-800 transition duration-300">
                         View GitHub
                     </a>
                 </div>

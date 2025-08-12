@@ -1,38 +1,80 @@
 [
     {
         "id": 1,
-        "name": "E-Commerce Website",
+        "name": "Blood Donation app",
         "description": "A fully functional e-commerce platform with product management, authentication, and payment integration.",
         "technologies": [
             "React",
             "Tailwind CSS",
+            "Daisy ui",
             "Node.js",
+            "Firebase",
             "MongoDB"
         ],
-        "image": "https://via.placeholder.com/400x250",
-        "link": "https://example.com/ecommerce"
+        "image": "https://th.bing.com/th/id/R.cb4f8c910ec28c05d2db81b92ef5ed9b?rik=pBm44EfqbY5IDw&pid=ImgRaw&r=0",
+        "thamble": [
+            {
+                "img": "https://static.vecteezy.com/system/resources/previews/004/449/815/original/blood-donation-2d-isolated-illustration-man-in-chair-on-blood-transfusion-donor-with-smiling-nurse-flat-characters-on-cartoon-background-charity-work-and-volunteering-colourful-scene-vector.jpg"
+            },
+            {
+                "img": "https://static.vecteezy.com/system/resources/previews/004/449/815/original/blood-donation-2d-isolated-illustration-man-in-chair-on-blood-transfusion-donor-with-smiling-nurse-flat-characters-on-cartoon-background-charity-work-and-volunteering-colourful-scene-vector.jpg"
+            },
+            {
+                "img": "https://static.vecteezy.com/system/resources/previews/004/449/815/original/blood-donation-2d-isolated-illustration-man-in-chair-on-blood-transfusion-donor-with-smiling-nurse-flat-characters-on-cartoon-background-charity-work-and-volunteering-colourful-scene-vector.jpg"
+            }
+        ],
+        "link": "https://blood-donation-f12cb.web.app/",
+        "repo": "https://github.com/tanvirabsur/blood-donation-app"
     },
     {
         "id": 2,
-        "name": "Portfolio Website",
-        "description": "Personal portfolio to showcase projects and skills with a modern, responsive UI.",
+        "name": "E-commarce website",
+        "description": "A fully functional e-commerce platform designed to provide a seamless shopping experience. Features include product listing with dynamic filtering, secure user authentication, shopping cart management, and integrated payment gateway. The website is fully responsive, ensuring an optimized experience across devices. Built with React, Tailwind CSS, Node.js, and MongoDB for fast performance and scalability.",
         "technologies": [
             "React",
-            "Tailwind CSS"
+            "Tailwind CSS",
+            "Daisy ui",
+            "Node.js",
+            "Firebase",
+            "MongoDB"
         ],
-        "image": "https://via.placeholder.com/400x250",
-        "link": "https://example.com/portfolio"
+        "thamble": [
+            {
+                "img": "/Screenshot 2025-08-12 203942.png"
+            },
+            {
+                "img": "/Screenshot 2025-08-12 204225.png"
+            }
+        ],
+        "image": "/thamble.png",
+        "link": "https://assignment-11-3f281.web.app/",
+        "repo": "https://github.com/tanvirabsur/e-commerce-app"
     },
     {
         "id": 3,
         "name": "Blog Platform",
         "description": "A platform where users can create, edit, and publish blog posts with authentication and comment features.",
         "technologies": [
-            "Next.js",
+            "React",
             "Tailwind CSS",
+            "Daisy ui",
+            "Node.js",
+            "Firebase",
             "MongoDB"
         ],
-        "image": "https://via.placeholder.com/400x250",
-        "link": "https://example.com/blog"
+        "thamble": [
+            {
+                "img": "https://static.vecteezy.com/system/resources/previews/004/449/815/original/blood-donation-2d-isolated-illustration-man-in-chair-on-blood-transfusion-donor-with-smiling-nurse-flat-characters-on-cartoon-background-charity-work-and-volunteering-colourful-scene-vector.jpg"
+            },
+            {
+                "img": "https://static.vecteezy.com/system/resources/previews/004/449/815/original/blood-donation-2d-isolated-illustration-man-in-chair-on-blood-transfusion-donor-with-smiling-nurse-flat-characters-on-cartoon-background-charity-work-and-volunteering-colourful-scene-vector.jpg"
+            },
+            {
+                "img": "https://static.vecteezy.com/system/resources/previews/004/449/815/original/blood-donation-2d-isolated-illustration-man-in-chair-on-blood-transfusion-donor-with-smiling-nurse-flat-characters-on-cartoon-background-charity-work-and-volunteering-colourful-scene-vector.jpg"
+            }
+        ],
+        "image": "https://th.bing.com/th/id/R.cb4f8c910ec28c05d2db81b92ef5ed9b?rik=pBm44EfqbY5IDw&pid=ImgRaw&r=0",
+        "link": "https://example.com/portfolio",
+        "repo": "https://example.com/ecommerce"
     }
 ]
