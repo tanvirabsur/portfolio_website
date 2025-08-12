@@ -1,14 +1,12 @@
-<img style="algin: left;height: 100px;max-width: 200px" src="https://www.bing.com/th/id/OGC.bd4ed327189c2a56695beb91cd534570?pid=1.7&rurl=https%3a%2f%2fmedia.giphy.com%2fmedia%2fSWoSkN6DxTszqIKEqv%2fgiphy.gif&ehk=8hAKq7Bb129roLCSPs7eJftL%2fruUpkpl4TvCcf81MMs%3d">
-<b>This is my portfolio website</b>
+# React + Vite
 
-<br>
-<h1 align="center">Hi, I'm Tanvir Absar from Bangladesh </h1>
-<img align="right" alt="Coding" width="400" src="https://miro.medium.com/max/680/0*7Q3yvSIv_t0ioJ-Z.gif"/>
-<b>Connect with me</b>
-<ul>
-  <li>I 'm currently not hired </li>
-  <li>I m' active on <a href="https://www.linkedin.com/in/tanvir-evan-b453a7281/">Linkdin</a></li>
-  <li><b>Mail: </b> tanvirabsur@gmail.com</li>
-  
-</ul>
-<br>
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+
+Currently, two official plugins are available:
+
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Expanding the ESLint configuration
+
+If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
