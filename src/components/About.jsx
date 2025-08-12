@@ -2,22 +2,27 @@ import React from 'react';
 
 const About = () => {
   return (
-    <section id="about" className="bg-gray-100 py-20">
-      <div className="container mx-auto flex flex-col md:flex-row items-center">
-        <div className="md:w-1/2 p-8">
-          <img src="https://via.placeholder.com/400" alt="John Doe" className="rounded-full shadow-lg" />
+    <>
+       <section id="about" class="py-20">
+        <div class="container mx-auto px-6">
+            <h2 class="text-4xl font-bold text-center mb-12" data-aos="fade-down">About Me</h2>
+            <div class="flex flex-col md:flex-row items-center">
+                <div class="md:w-1/2" data-aos="fade-right">
+                    <img src="https://via.placeholder.com/400" alt="About Me" class="rounded-lg shadow-lg"/>
+                </div>
+                <div class="md:w-1/2 md:pl-12 mt-8 md:mt-0" data-aos="fade-left">
+                    <h3 class="text-3xl font-bold mb-4">Who I Am</h3>
+                    <p class="text-gray-400 mb-4">
+                        I am a creative and dedicated web developer with a knack for building elegant and responsive websites. I have a strong background in front-end technologies and a passion for learning new things.
+                    </p>
+                    <p class="text-gray-400">
+                        My goal is to create digital experiences that are not only visually appealing but also intuitive and user-friendly. I believe in the power of clean code and good design.
+                    </p>
+                </div>
+            </div>
         </div>
-        <div className="md:w-1/2 p-8">
-          <h2 className="text-4xl font-bold mb-4">About Me</h2>
-          <p className="text-gray-700 mb-4">
-            I am a passionate and creative full-stack developer with a knack for building beautiful and functional web applications. I have experience with a variety of technologies, including React, Node.js, and Python.
-          </p>
-          <p className="text-gray-700">
-            I am always eager to learn new things and take on new challenges. I am a strong believer in the power of teamwork and collaboration.
-          </p>
-        </div>
-      </div>
     </section>
+    </>
   );
 };
 

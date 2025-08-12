@@ -1,48 +1,38 @@
 import React from 'react';
 
-const ProjectCard = ({ title, description, imageUrl, link }) => {
-  return (
-    <div className="bg-white rounded-lg shadow-lg overflow-hidden">
-      <img src={imageUrl} alt={title} className="w-full h-64 object-cover" />
-      <div className="p-6">
-        <h3 className="text-2xl font-bold mb-2">{title}</h3>
-        <p className="text-gray-700 mb-4">{description}</p>
-        <a href={link} className="text-blue-500 hover:underline">View Project</a>
-      </div>
-    </div>
-  );
-};
-
 const Projects = () => {
-  const projects = [
-    {
-      title: 'Project One',
-      description: 'A brief description of the first project.',
-      imageUrl: 'https://via.placeholder.com/400x300',
-      link: '#',
-    },
-    {
-      title: 'Project Two',
-      description: 'A brief description of the second project.',
-      imageUrl: 'https://via.placeholder.com/400x300',
-      link: '#',
-    },
-    {
-      title: 'Project Three',
-      description: 'A brief description of the third project.',
-      imageUrl: 'https://via.placeholder.com/400x300',
-      link: '#',
-    },
-  ];
-
   return (
-    <section id="projects" className="bg-gray-200 py-20">
-      <div className="container mx-auto">
-        <h2 className="text-4xl font-bold text-center mb-12">My Projects</h2>
-        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
-          {projects.map((project, index) => (
-            <ProjectCard key={index} {...project} />
-          ))}
+    <section id="projects" class="py-20">
+      <div class="container mx-auto px-6">
+        <h2 class="text-4xl font-bold text-center mb-12" data-aos="fade-down">My Projects</h2>
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+          {/* <!-- Project 1 --> */}
+          <div class="bg-gray-900 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300" data-aos="fade-up">
+            <img src="https://via.placeholder.com/400x300" alt="Project 1" class="w-full h-56 object-cover"/>
+              <div class="p-6">
+                <h3 class="text-2xl font-bold mb-2">Project One</h3>
+                <p class="text-gray-400 mb-4">A brief description of the project goes here. It was built using modern technologies.</p>
+                <a href="#" class="text-purple-400 hover:underline">View Details</a>
+              </div>
+          </div>
+          {/* <!-- Project 2 --> */}
+          <div class="bg-gray-900 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300" data-aos="fade-up" data-aos-delay="200">
+            <img src="https://via.placeholder.com/400x300" alt="Project 2" class="w-full h-56 object-cover"/>
+              <div class="p-6">
+                <h3 class="text-2xl font-bold mb-2">Project Two</h3>
+                <p class="text-gray-400 mb-4">A brief description of the project goes here. It was built using modern technologies.</p>
+                <a href="#" class="text-purple-400 hover:underline">View Details</a>
+              </div>
+          </div>
+          {/* <!-- Project 3 --> */}
+          <div class="bg-gray-900 rounded-lg shadow-lg overflow-hidden transform hover:scale-105 transition-transform duration-300" data-aos="fade-up" data-aos-delay="400">
+            <img src="https://via.placeholder.com/400x300" alt="Project 3" class="w-full h-56 object-cover"/>
+              <div class="p-6">
+                <h3 class="text-2xl font-bold mb-2">Project Three</h3>
+                <p class="text-gray-400 mb-4">A brief description of the project goes here. It was built using modern technologies.</p>
+                <a href="#" class="text-purple-400 hover:underline">View Details</a>
+              </div>
+          </div>
         </div>
       </div>
     </section>
