@@ -8,6 +8,8 @@ import Footer from './components/Footer';
 import './App.css';
 import Skills from './components/Skills';
 import WorksFlow from './components/WorksFlow';
+import Testtomonials from './components/Testtomonials';
+import CTASection from './components/CTASection';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
       <Projects />
       <Skills></Skills>
       <WorksFlow></WorksFlow>
+      <Testtomonials></Testtomonials>
+      <CTASection></CTASection>
       <Contact />
       <Footer />
     </div>
