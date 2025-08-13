@@ -13,7 +13,7 @@ const Education = () => {
       degree: 'Higher Secondary Certificate (HSC)',
       institution: 'Raihan School and college',
       year: '2023-2025',
-      details: 'Focused on commarce stream with Accounting, Management, and Mathematics.'
+      details: 'Focused on commarce stream with Accounting, Management, and Finance.'
     }
   ];
 

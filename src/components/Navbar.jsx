@@ -35,7 +35,7 @@ const Navbar = () => {
           <a href="#about" className="text-white hover:text-purple-400 transition duration-300">About</a>
           <a href="#projects" className="text-white hover:text-purple-400 transition duration-300">Projects</a>
           <a href="#skills" className="text-white hover:text-purple-400 transition duration-300">Skills</a>
-          <a href="education" className="text-white hover:text-purple-400 transition duration-300">Education</a>
+          <a href="#education" className="text-white hover:text-purple-400 transition duration-300">Education</a>
           {/* <a href="#experience" className="text-white hover:text-purple-400 transition duration-300">Experience</a> */}
           <a href="#contact" className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-2 px-4 rounded-full transition duration-300">Contact</a>
         </div>

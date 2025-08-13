@@ -40,7 +40,7 @@ const Hero = () => {
             </div>
           </div>
           <div className="mt-8 flex justify-center space-x-4" data-aos="fade-up">
-            <a href="#projects" className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-full transition duration-300">
+            <a href="#projects" className="bg-purple-600 hover:bg-purple-700  text-white font-bold py-3 px-8 rounded-full transition duration-300">
               View My Work
             </a>
             <a href="#" className="bg-transparent hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-full border border-white transition duration-300">
@@ -48,8 +48,8 @@ const Hero = () => {
             </a>
           </div>
           <div className="mt-8 flex justify-center space-x-4">
-            <a href="#" className="text-white hover:text-purple-400 transition duration-300"><i className="fab fa-github fa-2x"></i></a>
-            <a href="#" className="text-white hover:text-purple-400 transition duration-300"><i className="fab fa-linkedin fa-2x"></i></a>
+            <a href="https://github.com/tanvirabsur" className="text-white hover:text-purple-400 transition duration-300"><i className="fab fa-github fa-2x"></i></a>
+            <a href="https://www.linkedin.com/in/tanvirabsar" className="text-white hover:text-purple-400 transition duration-300"><i className="fab fa-linkedin fa-2x"></i></a>
             <a href="#" className="text-white hover:text-purple-400 transition duration-300"><i className="fab fa-twitter fa-2x"></i></a>
           </div>
         </div>
