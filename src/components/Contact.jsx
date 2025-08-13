@@ -8,8 +8,22 @@ const Contact = () => {
         <p className="text-gray-400 mb-8" data-aos="fade-up">
           I'm currently available for freelance work. If you have a project in mind, feel free to contact me.
         </p>
+        <div className="flex flex-col md:flex-row justify-center items-center md:space-x-8 space-y-8 md:space-y-0 mb-8">
+          <div className="text-center">
+            <h3 className="text-xl font-bold">Email</h3>
+            <p className="text-gray-400">your-email@example.com</p>
+          </div>
+          <div className="text-center">
+            <h3 className="text-xl font-bold">Phone</h3>
+            <p className="text-gray-400">+1 234 567 890</p>
+          </div>
+          <div className="text-center">
+            <h3 className="text-xl font-bold">WhatsApp</h3>
+            <p className="text-gray-400">+1 234 567 890</p>
+          </div>
+        </div>
         <a href="mailto:your-email@example.com" className="bg-purple-600 hover:bg-purple-700 text-white font-bold py-3 px-8 rounded-full transition duration-300" data-aos="zoom-in">
-          Contact Me
+          Send a Message
         </a>
       </div>
     </section>

@@ -47,6 +47,11 @@ const Hero = () => {
               Download Resume
             </a>
           </div>
+          <div className="mt-8 flex justify-center space-x-4">
+            <a href="#" className="text-white hover:text-purple-400 transition duration-300"><i className="fab fa-github fa-2x"></i></a>
+            <a href="#" className="text-white hover:text-purple-400 transition duration-300"><i className="fab fa-linkedin fa-2x"></i></a>
+            <a href="#" className="text-white hover:text-purple-400 transition duration-300"><i className="fab fa-twitter fa-2x"></i></a>
+          </div>
         </div>
       </div>
     </section>
